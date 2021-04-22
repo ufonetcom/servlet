@@ -8,14 +8,14 @@ import lombok.Setter;
 public class Member {
 
     private Long id;
-    private String user;
+    private String username;
     private int age;
 
     public Member() {
     }
 
     public Member(String user, int age) {
-        this.user = user;
+        this.username = user;
         this.age = age;
     }
 }
